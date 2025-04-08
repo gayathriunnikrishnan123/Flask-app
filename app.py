@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 # Initialize SQLAlchemy  12345......
 db = SQLAlchemy()
-#11111111
+#11111111............
 # Define models
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
