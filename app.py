@@ -37,7 +37,7 @@ def create_app():
     with app.app_context():
         db.create_all()
     
-    # Define a route for the root URL
+    # Define a route for the root URL.............
     @app.route('/')
     def home():
         return "Welcome to the Flask App!"
