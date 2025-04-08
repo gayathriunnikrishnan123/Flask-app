@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 # Initialize SQLAlchemy  12345......
 db = SQLAlchemy()
-
+#11111111
 # Define models
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -26,7 +26,7 @@ class Car(db.Model):
 def create_app():
     app = Flask(__name__)
     
-    # Configure the SQLite database
+    # Configure the SQLite database ..............112345678
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///example.db'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     
