@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 
-# Initialize SQLAlchemy
+# Initialize SQLAlchemy  12345......
 db = SQLAlchemy()
 
 # Define models
